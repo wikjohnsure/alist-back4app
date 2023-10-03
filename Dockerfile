@@ -1,7 +1,5 @@
 FROM ubuntu
 
-RUN echo "Clear cache"
-
 RUN apt -y update && apt install -y wget curl tar bash unzip
 
 RUN mkdir /opt/alist \
